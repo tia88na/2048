@@ -343,7 +343,7 @@ def generate_dashboard_html(history_path='training_history.json',
 </html>
 """
 
-    output_full_path = f'/home/claude/twentyrl_arena/{output_path}'
+    output_full_path = output_path
     with open(output_full_path, 'w', encoding='utf-8') as f:
         f.write(html_content)
 
